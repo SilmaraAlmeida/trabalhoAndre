@@ -5,7 +5,7 @@ Este é um projeto que está sendo desenvolvido como uma landing page pra uma ap
 ### Colaboradores
 
 - Ana Luiza
-- Diego
-- Italo
-- Leandro
-- Silmara
+- Diego Coelho
+- Italo Lacerda
+- Leandro Elias
+- Silmara Almeida
