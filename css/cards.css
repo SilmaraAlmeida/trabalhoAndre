@@ -1,0 +1,24 @@
+body {
+    font-family:"Poppins", sans-serif;
+}
+#cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #191a1b;
+    color: white;   
+}
+
+#cards h3{
+    margin: 30px;
+    width: 100%;
+    
+}
+
+.card{
+    background-color: #272626 ;
+    padding: 20px;
+    margin: 20px 60px 20px 60px;
+    border-radius: 10px;
+    width: 20%;
+}
