@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 nav {
     background-color: #18191a;
     color: #fff;

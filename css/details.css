@@ -1,13 +1,9 @@
-body{
-    background-color: #18191a;;
-    color: white;
-}
-
 #detalhes {
     display: flex; 
     flex-wrap: wrap;
     margin-right: 4%; /* Espaço entre as colunas */
     justify-content: center;
+    background-color: #18191a;
 }
 
 
