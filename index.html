@@ -67,104 +67,114 @@
             <p>Informações sobre o site ou empresa.</p>
         </section>
 
-        <section id="cards">
-
-            <h3><strong>Nossos Serviços</strong></h3>
-            
-            <div class="card">
-                <h4><strong>Manutenção e Reparo de Computadores e Dispositivos</strong></h4>
-                <p>
-                    Diagnóstico, conserto e substituição de peças
-                    defeituosas em desktops, notebooks, tablet e outros equipamentos.
-                </p>
-            </div>
-
-            <div class="card">
-                <h4><strong>Formatação e Reistalação de Sistemas Operacionais</strong></h4>
-                <p>
-                    Limpeza completa do sistema, Reistalação do Windows,
-                    Linux ou macOS, e configuração de drivers e softwares essenciais.
-                </p>
-            </div>
-
-            <div class="card">
-                <h4><strong>Remoção de Vírus e Otimização de Desempenho</strong></h4>
-                <p>
-                    Identificação e eliminação de malwares, limpeza de
-                    arquivos desnecessários e ajustes para melhorar a velocidade e eficiência do sistema.
-                </p>
+        <section id="cards" class="py-5">
+            <h3 class="text-center mb-4"><strong>Nossos Serviços</strong></h3>
+            <div class="m-5 row">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Manutenção e Reparo de Computadores e Dispositivos</strong></h4>
+                            <p class="card-text">
+                                Diagnóstico, conserto e substituição de peças defeituosas em desktops, notebooks, tablets e outros equipamentos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Formatação e Reinstalação de Sistemas Operacionais</strong></h4>
+                            <p class="card-text">
+                                Limpeza completa do sistema, reinstalação do Windows, Linux ou macOS, e configuração de drivers e softwares essenciais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Remoção de Vírus e Otimização de Desempenho</strong></h4>
+                            <p class="card-text">
+                                Identificação e eliminação de malwares, limpeza de arquivos desnecessários e ajustes para melhorar a velocidade e eficiência do sistema.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="depoimentos" class="container my-4">
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/1.png" class="d-block img-fluid" alt="...">
+        <div class="depoimentos m">
+            <section id="depoimentos" class="container">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/1.png" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/2.png" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/3.png" class="d-block img-fluid" alt="...">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/2.png" class="d-block img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/3.png" class="d-block img-fluid" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>        
+            </section>        
+        </div>
 
-        <div class="container d-flex flex-column align-items-left text-left text-white py-5" style="background-color: #18191a;">
+        <div class="d-flex flex-column align-items-left text-left text-white py-5" style="background-color: #18191a;">
             <div class="row">
                 <div class="col">
                     <h3>Nossos serviços de Suporte:</h3>
                 </div>
             </div>
+
+
+            <section id="detalhes">
+                <div class="card " style="width: 18rem; ">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Atendimento Técnico Especializado</h5>
+                        <p class="card-text">Nossa equipe altamente qualificada está pronta para ajudar com qualquer problema técnico que você enfrentar. Oferecemos suporte remoto e presencial, com diagnóstico rápido e soluções personalizadas.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; ">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Instalação e Configuração</h5>
+                        <p class="card-text mb-5">Realizamos a instalação de equipamentos de informática, sistemas operacionais, redes e periféricos, garantindo que tudo funcione perfeitamente desde o início.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; ">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Manutenção Preventiva e Reparos</h5>
+                        <p class="card-text mb-5">Prolongue a vida útil dos seus equipamentos com nossos serviços de manutenção preventiva. Também realizamos reparos em peças e dispositivos, com rapidez e segurança.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem; ">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Consultoria Técnica:</h5>
+                        <p class="card-text mb-5">Precisa de orientações para melhorar a infraestrutura de TI? Oferecemos consultoria para empresas e residências, com foco em otimização e segurança.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </section>
         </div>
-
-        <section id="detalhes">
-            <div class="card " style="width: 18rem; ">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Atendimento Técnico Especializado</h5>
-                    <p class="card-text">Nossa equipe altamente qualificada está pronta para ajudar com qualquer problema técnico que você enfrentar. Oferecemos suporte remoto e presencial, com diagnóstico rápido e soluções personalizadas.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem; ">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Instalação e Configuração</h5>
-                    <p class="card-text mb-5">Realizamos a instalação de equipamentos de informática, sistemas operacionais, redes e periféricos, garantindo que tudo funcione perfeitamente desde o início.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem; ">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Manutenção Preventiva e Reparos</h5>
-                    <p class="card-text mb-5">Prolongue a vida útil dos seus equipamentos com nossos serviços de manutenção preventiva. Também realizamos reparos em peças e dispositivos, com rapidez e segurança.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem; ">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Consultoria Técnica:</h5>
-                    <p class="card-text mb-5">Precisa de orientações para melhorar a infraestrutura de TI? Oferecemos consultoria para empresas e residências, com foco em otimização e segurança.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-        </section>
 
         <section id="footer">
             <h3>Footer</h3>
