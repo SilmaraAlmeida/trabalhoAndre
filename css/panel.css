@@ -1,0 +1,32 @@
+#painel-inicial {
+    background-color: #18191a;
+    min-height: 100vh;
+}
+
+#painel-inicial h3 {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff8c00, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#painel-inicial p {
+    max-width: 600px;
+    margin-top: 3rem;
+}
+
+#painel-inicial button {
+    background: linear-gradient(90deg, #ff8c00, #1e90ff);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 4rem;
+    color: #fff;
+}
+
+#painel-inicial img {
+    max-width: 400px;
+    margin-top: 5rem;
+}
