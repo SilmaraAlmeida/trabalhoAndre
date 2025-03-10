@@ -4,13 +4,16 @@
     margin-right: 4%; /* Espaço entre as colunas */
     justify-content: center;
     background-color: #18191a;
+    display: flex;
+    gap: 20px;
 }
 
 
-.container h3 {
-    font-weight: bold;
+.nosso h3 {
+    margin-top: 20px;
     font-size: 2rem;
     background: linear-gradient(90deg, #ff8c00, #1e90ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-left: 13%;
 }

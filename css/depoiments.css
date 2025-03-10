@@ -1,3 +1,6 @@
-.depoimentos {
-    background-color: #18191a !important;
+.caro {
+    width: 85%; /* Ou ajuste conforme necessário */
+    height: 85%; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem se comporte corretamente */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
