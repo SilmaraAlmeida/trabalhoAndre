@@ -1,4 +1,30 @@
 #sobre {
-    background-color: white;
-    color: black;
+    background-color: 161515; /* Fundo preto */
+    padding: 50px 0;
+    text-align: center; /* Centraliza o conteúdo */
 }
+
+.aaa {
+    font-size: 2rem;
+    font-weight: bold; /* Negrito */
+    background: linear-gradient(90deg, #ff8c00, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.descricao-box {
+    background: #272626; /* Fundo levemente transparente */
+    padding: 30px;
+    border-radius: 20px; /* Bordas arredondadas */
+    max-width: 700px; /* Define a largura */
+    margin: 0 auto; /* Centraliza */
+}
+
+.descricao {
+    color: white; /* Letra branca */
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
