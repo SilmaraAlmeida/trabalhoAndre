@@ -35,10 +35,10 @@ body {
 
 .ppp {
     margin-left: 23%;
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 2rem;
     background: linear-gradient(90deg, #ff8c00, #1e90ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    height: 40px;
+    height: 30px;
 }
