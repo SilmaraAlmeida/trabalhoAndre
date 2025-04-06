@@ -1,4 +1,19 @@
 #footer {
-    background-color: white;
+    background-color: #0d0d0d;
     color: black;
 }
+
+.footer .links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .links a:hover {
+    color: #17d4fc;
+}
+
+.footer-icon:hover {
+    color: #17d4fc !important;
+  }
+  
