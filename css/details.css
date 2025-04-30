@@ -1,7 +1,7 @@
 #detalhes {
     display: flex; 
     flex-wrap: wrap;
-    margin-right: 4%; /* Espaço entre as colunas */
+    margin-right: 4%;
     justify-content: center;
     background-color: #18191a;
     display: flex;
@@ -21,7 +21,7 @@
 #detalhes1 {
     display: flex; 
     flex-wrap: wrap;
-    margin-right: 4%; /* Espaço entre as colunas */
+    margin-right: 4%;
     justify-content: center;
     background-color: #18191a;
     display: flex;
@@ -32,7 +32,7 @@
 #detalhes2 {
     display: flex; 
     flex-wrap: wrap;
-    margin-right: 4%; /* Espaço entre as colunas */
+    margin-right: 4%;
     justify-content: center;
     background-color: #18191a;
     display: flex;
@@ -43,7 +43,7 @@
 #detalhes3 {
     display: flex; 
     flex-wrap: wrap;
-    margin-right: 4%; /* Espaço entre as colunas */
+    margin-right: 4%;
     justify-content: center;
     background-color: #18191a;
     display: flex;
@@ -54,7 +54,7 @@
 #detalhes4 {
     display: flex; 
     flex-wrap: wrap;
-    margin-right: 4%; /* Espaço entre as colunas */
+    margin-right: 4%;
     justify-content: center;
     background-color: #18191a;
     display: flex;
@@ -65,7 +65,7 @@
 #detalhes5 {
     display: flex; 
     flex-wrap: wrap;
-    margin-right: 4%; /* Espaço entre as colunas */
+    margin-right: 4%;
     justify-content: center;
     background-color: #18191a;
     display: flex;
